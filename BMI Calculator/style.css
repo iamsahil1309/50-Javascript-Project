@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #84C318;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #329F5B;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 5px;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.input {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #D4DFC7;
+    border-color: transparent;
+    margin: 10px;
+}
+
+.btn {
+    background-color: grey;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.info-text {
+    font-size: 20px;
+    font-weight: 500;
+}
